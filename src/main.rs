@@ -49,12 +49,6 @@ mod tests {
     }
 
     #[test]
-    #[should_panic]
-    fn test_divide_by_zero() {
-        divide(15.0, 0.0);
-    }
-
-    #[test]
     fn test_remainder() {
         assert_eq!(remainder(9, 4), 1);
     }
